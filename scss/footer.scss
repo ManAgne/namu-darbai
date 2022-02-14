@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  margin: auto 100px;
+
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+
+    li {
+      margin-left: 15px;
+      margin-top: 4px;
+      font-size: 10px;
+    }
+  }
+
+  span {
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: -124px;
+
+  }
+
+  .footer-icons{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

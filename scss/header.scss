@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background: #f8f9fa;
+  height: 50px;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+
+  h2 {
+    color: black;    
+    align-self: center;
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  
+  button {
+    height: 30px;
+    width: 80px;
+    align-self: center;
+    background-color: #007bff;
+    color: white;
+    font-family: lato;
+    border: none;
+    border-radius: 3px; 
+    margin-right: 100px;
+  }
+
+}

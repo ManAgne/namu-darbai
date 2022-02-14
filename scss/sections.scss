@@ -1,0 +1,182 @@
+.signup {
+  background: $section-1-bg;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.3;    
+  }
+
+  h1, h2 {
+    font-size: 20px;
+    margin: 20px 100px;
+    text-align: center;
+  }
+
+  .email{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+
+  input {
+    height: 30px;
+    width: 70%;
+    font-family: lato;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+
+  button {
+    height: 30px;
+    width: 30%;
+    align-self: center;
+    background-color: #007bff;
+    color: white;
+    font-family: lato;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px; 
+  }
+  div {
+    z-index: 1;
+  }  
+}
+
+.signup-1 {
+  height: 400px;
+}
+
+.signup-2 {
+  height: 200px;
+
+  h2{
+    color: white;
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  margin: auto 80px;
+
+  div {
+    text-align: center;
+    margin: 20px;
+
+    img {
+      width: 50px;
+      margin-bottom: 10px;
+      z-index: 1;
+    }
+
+    h2 {
+      color: black;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+}
+
+.move {
+  color: black;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  margin: -50px 50px 0 50px;
+
+  div {
+    text-align: center;
+    margin: 20px;
+
+    img {
+      border-radius: 100%;
+      width: 100px;
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      color: black;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 10px;
+      max-width: 150px;
+    }
+  }
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    
+    .reverse{
+        flex-direction:row-reverse;
+    }
+
+    .article-size {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+
+    div{
+        width: 50%;
+        background: black;
+        // // text-align: left;
+        // align-self: center;
+        // overflow: hidden;
+
+        .image-1 {
+            background: $article-1-bg;
+            background-size: cover;
+            background-position: center;
+            
+        }
+        
+        h2 {
+            font-size: 18px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 10px;
+            color: black;
+
+        }
+    
+        p {
+        font-size: 14px;
+        margin-left: 40px;
+        margin-right: 40px;
+        }
+    }
+}
+}
+
+
+
